@@ -55,3 +55,7 @@ $route['translate_uri_dashes'] = FALSE;
 
 
 $route['API'] = 'Rest_server';
+
+// User API Routes
+$route['user/add'] = 'Users/add_user';
+$route['users/all'] = 'Users/fetch_all_users';
